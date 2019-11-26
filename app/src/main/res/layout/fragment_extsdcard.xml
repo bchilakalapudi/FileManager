@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ListView
+        android:id="@+id/ext_rl_lvListRoot"
+        android:layout_width="match_parent"
+        android:layout_height="666dp"
+        android:background="#FBFDFF"></ListView>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/int_adView"
+        android:layout_width="match_parent"
+        android:layout_height="82dp"
+        android:layout_below="@id/ext_rl_lvListRoot"
+        android:layout_marginTop="5dp"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-6536530345445965/7704896716"
+        android:background="#4CAF50"></com.google.android.gms.ads.AdView>
+
+</RelativeLayout>
+

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_phone"
+            android:icon="@drawable/ic_phone_android_black_24dp"
+            android:title="Internal Memory" />
+        <item
+            android:id="@+id/nav_sdcard"
+            android:icon="@drawable/ic_sd_card_black_50dp"
+            android:title="Ext SDCard" />
+    </group>
+
+</menu>
